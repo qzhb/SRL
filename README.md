@@ -5,11 +5,21 @@
 This is a Pytorch implementation of the model described in our paper:
 > Z. Qi, S. Wang, C. Su, L. Su, Q. Huang, and Q. Tian. Self-Regulated Learning for Egocentric Video Activity Anticipation. TPAMI 2021.
 
-# Data
+# Dataset
 
+## EPIC-Kitchens dataset
 For the raw data of the EPIC-Kitchens dataset, please refer to https://github.com/epic-kitchens/download-scripts to download.
 
 For the three modality features (rgb, flow, obj), please refer to https://github.com/fpv-iplab/rulstm to download. After downloading, put them in the folder './data'.
+
+## EGTEA Gaze+ dataset
+
+
+## 50 Salads dataset
+
+
+## Breakfast dataset
+
 
 # Train
 
