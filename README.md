@@ -2,7 +2,8 @@
 
 # Introduction 
 
-Source codes for paper 'Self-Regulated Learning for Egocentric Video Activity Anticipation'.
+This is a Pytorch implementation of the model described in our paper:
+> Q. Xu, Z. Yang, Y. Jiang, X. Cao, Q. Huang, and Y. Yao. Not All Samples are Trustworthy: Towards Deep Robust SVP Prediction. TPAMI 2021.
 
 # Data
 
