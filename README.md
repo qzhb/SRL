@@ -3,7 +3,7 @@
 # Introduction 
 
 This is a Pytorch implementation of the model described in our paper:
-> Q. Xu, Z. Yang, Y. Jiang, X. Cao, Q. Huang, and Y. Yao. Not All Samples are Trustworthy: Towards Deep Robust SVP Prediction. TPAMI 2021.
+> Z. Qi, S. Wang, C. Su, L. Su, Q. Huang, and Q. Tian. Self-Regulated Learning for Egocentric Video Activity Anticipation. TPAMI 2021.
 
 # Data
 
@@ -33,3 +33,9 @@ python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality obj --hid
 
 For three modality features, 
 python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality fusion --resume_timestamp pre_trained
+
+# Citation
+Please cite our paper if you use this code in your own work:
+'''
+
+'''
