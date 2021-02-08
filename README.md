@@ -20,6 +20,7 @@ For the three modality features (rgb, flow, obj), please refer to https://github
 
 ## Breakfast dataset
 
+Please download the extraced I3D features from 'https://pan.baidu.com/s/1BIbMFlI_gZQrXu1w-EZrhg passward: wcjv'. After downloading, put them in the folder './data'.
 
 # Train
 
