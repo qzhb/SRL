@@ -31,7 +31,7 @@ For the extracted features, please refer to https://github.com/colincsl/Temporal
 ## Breakfast dataset
 For the raw data of the Breakfast dataset, please refer to https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/ to download.
 
-For the extraced I3D features, please download from [Baidu](https://pan.baidu.com/s/16SN5xPTat3d4TJec_WuztA) passward: wub3 or [Google Drive](https://drive.google.com/drive/folders/1rL6kQu0PREQZNMov56gcIRhoNwCtpGZ1). After downloading, put them in the folder './data'.
+For the extraced I3D features, please download from [Baidu](https://pan.baidu.com/s/16SN5xPTat3d4TJec_WuztA) passward: 'wub3' or [Google Drive](https://drive.google.com/drive/folders/1rL6kQu0PREQZNMov56gcIRhoNwCtpGZ1). After downloading, put them in the folder './data'.
 
 # Train
 
@@ -42,7 +42,7 @@ Silimar commonds can be used for flow or obj features.
 
 # Validation for Epic-Kitchen dataset
 
-Please download the pre-trained model weigths from [Baidu](https://pan.baidu.com/s/16SN5xPTat3d4TJec_WuztA) passward: wub3 or [Google Drive](https://drive.google.com/drive/folders/1rL6kQu0PREQZNMov56gcIRhoNwCtpGZ1), and put them in the folder './results/EPIC/base_srl/pre_trained/'.
+Please download the pre-trained model weigths from [Baidu](https://pan.baidu.com/s/16SN5xPTat3d4TJec_WuztA) passward: 'wub3' or [Google Drive](https://drive.google.com/drive/folders/1rL6kQu0PREQZNMov56gcIRhoNwCtpGZ1), and put them in the folder './results/EPIC/base_srl/pre_trained/'.
 
 For rgb feature, 
 python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality rgb --hidden 1024 --feat_in 1024 --resume_timestamp pre_trained
