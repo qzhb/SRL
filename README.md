@@ -1,11 +1,17 @@
-# Pytorch Implementation of SRL
+# Self-Regulated Learning for Egocentric Video Activity Anticipation
 
 # Introduction 
 
 This is a Pytorch implementation of the model described in our paper:
 > Z. Qi, S. Wang, C. Su, L. Su, Q. Huang, and Q. Tian. Self-Regulated Learning for Egocentric Video Activity Anticipation. TPAMI 2021.
 
-# Dataset
+# Dependencies
+- Pytorch 1.0.1
+- Cuda 9.0.176
+- Cudnn 7.4.2
+- Python 3.6.8
+
+# Data
 
 ## EPIC-Kitchens dataset
 For the raw data of the EPIC-Kitchens dataset, please refer to https://github.com/epic-kitchens/download-scripts to download.
