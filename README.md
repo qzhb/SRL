@@ -19,14 +19,14 @@ For the raw data of the EPIC-Kitchens dataset, please refer to https://github.co
 For the three modality features (rgb, flow, obj), please refer to https://github.com/fpv-iplab/rulstm to download. After downloading, put them in the folder './data'.
 
 ## EGTEA Gaze+ dataset
-
+Please refer to https://github.com/fpv-iplab/rulstm to download the features. After downloading, put them in the folder './data'.
 
 ## 50 Salads dataset
 
 
 ## Breakfast dataset
 
-Please download the extraced I3D features from 'https://pan.baidu.com/s/1BIbMFlI_gZQrXu1w-EZrhg passward: wcjv'. After downloading, put them in the folder './data'.
+Please download the extraced I3D features from [Baidu](https://pan.baidu.com/s/1BIbMFlI_gZQrXu1w-EZrhg] passward: wcjv' or [Google Drive](). After downloading, put them in the folder './data'.
 
 # Train
 
