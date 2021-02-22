@@ -19,14 +19,19 @@ For the raw data of the EPIC-Kitchens dataset, please refer to https://github.co
 For the three modality features (rgb, flow, obj), please refer to https://github.com/fpv-iplab/rulstm to download. After downloading, put them in the folder './data'.
 
 ## EGTEA Gaze+ dataset
-Please refer to https://github.com/fpv-iplab/rulstm to download the features. After downloading, put them in the folder './data'.
+For the raw data of the EGTEA Gaze+ dataset, please refer to http://cbs.ic.gatech.edu/fpv/ to download.
+
+For the extracted features, please refer to https://github.com/fpv-iplab/rulstm to download. After downloading, put them in the folder './data'.
 
 ## 50 Salads dataset
+For the raw data of the 50 Salads dataset, please refer to http://cvip.computing.dundee.ac.uk/datasets/foodpreparation/50salads/ to download.
 
+For the extracted features, please refer to https://github.com/colincsl/TemporalConvolutionalNetworks to download. After downloading, put them in the folder './data'.
 
 ## Breakfast dataset
+For the raw data of the Breakfast dataset, please refer to https://serre-lab.clps.brown.edu/resource/breakfast-actions-dataset/ to download.
 
-Please download the extraced I3D features from [Baidu](https://pan.baidu.com/s/1BIbMFlI_gZQrXu1w-EZrhg] passward: wcjv' or [Google Drive](). After downloading, put them in the folder './data'.
+For the extraced I3D features, please download from [Baidu](https://pan.baidu.com/s/1BIbMFlI_gZQrXu1w-EZrhg) passward: wcjv' or [Google Drive](). After downloading, put them in the folder './data'.
 
 # Train
 
@@ -35,9 +40,9 @@ python main.py --gpu_ids 0 --batch_size 128 --wd 1e-5 --lr 0.1 --reinforce_verb_
 
 Silimar commonds can be used for flow or obj features.
 
-# Validation
+# Validation for Epic-Kitchen dataset
 
-Please download the pre-trained model weigths from 'https://pan.baidu.com/s/1BIbMFlI_gZQrXu1w-EZrhg passward: wcjv', and put them in the folder './results/EPIC/base_srl/pre_trained/'.
+Please download the pre-trained model weigths from [Baidu](https://pan.baidu.com/s/1BIbMFlI_gZQrXu1w-EZrhg) passward: wcjv' or [Google Drive](), and put them in the folder './results/EPIC/base_srl/pre_trained/'.
 
 For rgb feature, 
 python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality rgb --hidden 1024 --feat_in 1024 --resume_timestamp pre_trained
@@ -53,6 +58,12 @@ python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality fusion --
 
 # Citation
 Please cite our paper if you use this code in your own work:
-'''
 
-'''
+```
+
+```
+
+# Concat
+If you have any problem about our code, feel free to contact
+
+- [zhaobo.qi@vipl.ict.ac.cn](mailto:zhaobo.qi@vipl.ict.ac.cn)
