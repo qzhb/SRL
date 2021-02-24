@@ -60,7 +60,15 @@ python main.py --gpu_ids 0 --batch_size 128 --mode validate --modality fusion --
 Please cite our paper if you use this code in your own work:
 
 ```
-
+@article{qi2021self,
+  title={Self-Regulated Learning for Egocentric Video Activity Anticipation},
+  author={Qi, Zhaobo and Wang, Shuhui and Su, Chi and Su, Li and Huang, Qingming and Tian, Qi},
+  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  number={01},
+  pages={1--1},
+  year={2021},
+  publisher={IEEE Computer Society}
+}
 ```
 
 # Concat
