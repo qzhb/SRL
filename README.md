@@ -33,7 +33,7 @@ For the raw data of the Breakfast dataset, please refer to https://serre-lab.clp
 
 For the extraced I3D features, please download from [Baidu](https://pan.baidu.com/s/16SN5xPTat3d4TJec_WuztA) passward: 'wub3' or [Google Drive](https://drive.google.com/drive/folders/1rL6kQu0PREQZNMov56gcIRhoNwCtpGZ1). After downloading, put them in the folder './data'.
 
-# Train
+# Train for Epic-Kitchen dataset
 
 For rgb feature, 
 python main.py --gpu_ids 0 --batch_size 128 --wd 1e-5 --lr 0.1 --reinforce_verb_weight 0.01 --reinforce_noun_weight 0.01 --revision_weight 0.8  --mode train --modality rgb --hidden 1024 --feat_in 1024
