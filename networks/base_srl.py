@@ -138,7 +138,7 @@ class Ant_Model(nn.Module):
             enc_inputs = inputs[0:t+1, ...].permute(1, 0, 2) # batch * t * dim
 
             ## init input    
-            i_t = torch.cat((inputs[t, ...], inputs[t, ...]), dim=1)
+            i_t = torch.cat((inputs[t, ...], features[t, ...]), dim=1)
             i_t = self.enc_dropout(F.relu(i_t)).unsqueeze(0)
             h_t = features[t, ...].unsqueeze(0)
             
@@ -162,7 +162,7 @@ class Ant_Model(nn.Module):
                 
                 temp_h_t_re = h_t_re.squeeze(0)
                 ## next inputs
-                i_t = torch.cat((temp_h_t_re, inputs[t, ...]), dim=1)
+                i_t = torch.cat((temp_h_t_re, features[t, ...]), dim=1)
                 i_t = self.enc_dropout(F.relu(i_t)).unsqueeze(0)
 
                 ## clc feature
